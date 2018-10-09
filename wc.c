@@ -1,3 +1,5 @@
+/** @file wc.c - downloaded from source code. file utilizes pointers in order to complete the task at hand.
+**/
 #include <ctype.h>
 #include <err.h>
 #include <errno.h>
@@ -84,6 +86,10 @@ main(int argc, char *argv[])
 	exit(errors == 0 ? 0 : 1);
 }
 
+/** cnt function
+ @param file - pointer to a const char that is utilized throughout the function
+ @return static int - static - will never change
+ **/
 static int
 cnt(const char *file)
 {
