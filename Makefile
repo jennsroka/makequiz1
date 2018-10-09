@@ -9,7 +9,7 @@ doc:
 	doxygen Doxyfile
 build: mc.o
 	g++ -c mc.o
-doczip: archive tar.gz
+doczip: archive tar.gz  
 clean:
 	-rm *.0
 	-rm mywc
